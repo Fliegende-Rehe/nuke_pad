@@ -12,6 +12,9 @@ Desktop macro pad for turning on/restarting the PC with blocking press using Eme
 - Emergency stop button (satisfying to press and spin) to avoid accidental pressing of PC off button
 - Programmable rotary encoder EC11 (with button)
 - LED strip to hightlight buttons or current ZMK layer    
+  - green - base layer
+  - blue - discord, mic control and discord app volume control ([autohotkey implementation](https://github.com/Fliegende-Rehe/zmk-config/tree/main/auto_hotkey))
+  - pink - sys/rgb contol
 
 <br><br>
 <img
@@ -31,7 +34,18 @@ Desktop macro pad for turning on/restarting the PC with blocking press using Eme
 
 ## Design Highlights
 
-<img src="img/assembly.png" alt="assembly" width="1250"/>
+<br><br>
+<img
+  src="img/assembly.png"
+  alt="assembly"
+  width="1250"
+  style="
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    padding: 4px;
+    background: #fff;
+  "
+/>
 
 - **front_plate**
   - Print with *maximum infill*
